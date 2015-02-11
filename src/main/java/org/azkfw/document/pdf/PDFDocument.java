@@ -103,6 +103,7 @@ public class PDFDocument {
 
 	}
 
+	@SuppressWarnings("unused")
 	private PDRectangle getA4Rectangle() {
 		PDRectangle rect = new PDRectangle();
 		rect.setUpperRightX(0);
@@ -114,6 +115,7 @@ public class PDFDocument {
 		return rect;
 	}
 
+	@SuppressWarnings("unused")
 	private float mm2pt(final float aMm) {
 		return aMm / 0.353f;
 	}

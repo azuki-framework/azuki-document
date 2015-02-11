@@ -313,6 +313,7 @@ public class XLSXWriter {
 
 		/////////////////////////////////////////////////////////////////////
 		XSSFRow row = null;
+		@SuppressWarnings("unused")
 		XSSFCell cell = null;
 		int rowIndex = 1;
 
@@ -386,6 +387,7 @@ public class XLSXWriter {
 
 		/////////////////////////////////////////////////////////////////////
 		XSSFRow row = null;
+		@SuppressWarnings("unused")
 		XSSFCell cell = null;
 		int rowIndex = 1;
 
@@ -898,6 +900,7 @@ public class XLSXWriter {
 		return (flag) ? "YES" : "";
 	}
 
+	@SuppressWarnings("unused")
 	private static final String toYesNo(final boolean flag) {
 		return (flag) ? "Yes" : "No";
 	}
